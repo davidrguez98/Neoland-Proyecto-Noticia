@@ -1,0 +1,32 @@
+/* ESTILOS TEMPORALES PARA COMPROBACIONES */
+
+.nav-complete {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+img{
+    width: 70%;
+}
+
+.nav-section{
+    
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    li{
+        padding: 0 1em;
+    }
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
