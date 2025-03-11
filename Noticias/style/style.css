@@ -9,6 +9,11 @@
 ================== MENU NAVEGACION ==================
 ================================================== */
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 .nav {
     width: 100%;
     border-bottom: solid 2px var(--color-purple);
@@ -61,11 +66,9 @@
             justify-content: center;
             align-items: center;
         }
-}
+    }
 
-main {
-    display: none;
-}
+
 
 footer {
     display: none;
@@ -80,6 +83,8 @@ footer {
             display: none;
         }
     }
+    
+    
 }
 
 @media (min-width: 769px) {
@@ -87,11 +92,49 @@ footer {
         width: 100%;
         max-width: 1200px;
         padding: var(--size-xs);
+    
+        .nav-img {
+            margin-right: 15rem;
+        }   
     }
+
 
 }
 
 /* ==================================================
 ================ CONTENIDO PRINCIPAL ================
 ================================================== */
+/* 
+@media (max-width: 768px) {
+    article{
+        width: 100%;
+        padding: var(--size-xs);
 
+        .nav-links li {
+            display: none;
+        }
+    }
+    
+    
+} */
+
+@media (min-width: 769px) {
+    .noticia {
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 1100px;
+        padding: var(--size-xs); 
+        
+        img {
+            width: 100px;
+        }
+
+        article{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}
