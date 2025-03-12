@@ -9,11 +9,6 @@
 ================== MENU NAVEGACION ==================
 ================================================== */
 
-body{
-    display: flex;
-    flex-direction: column;
-}
-
 .nav {
     width: 100%;
     border-bottom: solid 2px var(--color-purple);
@@ -98,43 +93,92 @@ footer {
         }   
     }
 
-
-}
-
 /* ==================================================
 ================ CONTENIDO PRINCIPAL ================
 ================================================== */
-/* 
-@media (max-width: 768px) {
-    article{
-        width: 100%;
-        padding: var(--size-xs);
 
-        .nav-links li {
-            display: none;
+@media (max-width: 768px) {
+    .noticia-principio-texto {
+            
+        h1{
+            font-family: "Work Sans", sans-serif;
+            font-size: var(--text-large);
+            font-style: oblique;
+            font-weight: var(--font-extrabold);
         }
     }
-    
-    
-} */
+
+}
 
 @media (min-width: 769px) {
-    .noticia {
-        background-color: red;
-        display: flex;
-        justify-content: center;
+    main {
         width: 100%;
-        max-width: 1100px;
-        padding: var(--size-xs); 
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    .noticia {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 64px;
+
+        .noticia-principio{
+            display: flex;
+            flex-direction: row;
+            padding-left: 96px;
+            padding-right: 96px;
+        }
         
-        img {
-            width: 100px;
+        .noticia-principio-texto {
+            
+            h1{
+                font-family: "Work Sans", sans-serif;
+                font-size: var(--text-large);
+                font-style: oblique;
+                font-weight: var(--font-extrabold);
+            }
         }
 
-        article{
+        .noticia-principio-foto img {
             display: flex;
-            flex-direction: column;
             justify-content: center;
         }
     }
-}
+    
+    .noticia-principio {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .noticia-principio div {
+        flex: 1;
+    }
+    
+    .noticia-principio img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .noticia-cuerpo {
+        text-align: justify;
+    }
+    
+    .noticia-cuerpo-topics, .noticia-cuerpo-related {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .noticia-cuerpo-topics ul, .noticia-cuerpo-related ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .noticia-cuerpo-topics li, .noticia-cuerpo-related li {
+        display: inline;
+        margin: 0 10px;
+    }
+}}
