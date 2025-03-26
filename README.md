@@ -2,7 +2,7 @@
 
 Este proyecto es un clon de una noticia extraida del medio deportivo español **Relevo**, desarrollado como parte del bootcamp de desarrollo web. El objetivo principal era poner en práctica los conocimientos adquiridos sobre **HTML**, **CSS** y diseño **responsive**.
 
----
+
 
 ## 🚀 Tecnologías utilizadas
 
@@ -10,7 +10,7 @@ Este proyecto es un clon de una noticia extraida del medio deportivo español **
 - CSS3 (Flexbox)
 - Responsive Design (media queries)
 
----
+
 
 ## 📦 Instalación
 
@@ -21,14 +21,14 @@ Solo necesitas clonar el repositorio y abrir el archivo `index.html` en tu naveg
 git clone https://github.com/davidrguez98/Neoland-Proyecto-Noticia
 ```
 
----
+
 
 ## 📸 Capturas de pantalla
 
 ![Versión escritorio](./assets/screenshots/IMG_6196.PNG)  
 ![Versión móvil](./assets/screenshots/IMG_6197.PNG)
 
----
+
 
 ## 🎯 Objetivo del proyecto
 
@@ -36,7 +36,7 @@ git clone https://github.com/davidrguez98/Neoland-Proyecto-Noticia
 - Practicar diseño responsive para adaptar la página a diferentes dispositivos.
 - Aplicar buenas prácticas en la maquetación y organización del código.
 
----
+
 
 ## 📚 Aprendizajes
 
@@ -44,7 +44,7 @@ git clone https://github.com/davidrguez98/Neoland-Proyecto-Noticia
 - Dominio básico de **media queries** para diseño responsive.
 - Estructuración limpia y ordenada de archivos HTML y CSS.
 
----
+
 
 ## 📁 Estructura del proyecto
 
@@ -63,7 +63,7 @@ git clone https://github.com/davidrguez98/Neoland-Proyecto-Noticia
 └── README.md
 ```
 
----
+
 
 ## 📌 Notas
 
