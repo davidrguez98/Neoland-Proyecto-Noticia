@@ -339,13 +339,18 @@ footer {
         padding: 35px 96px;
         font-family: 'Roboto Flex', sans-serif;
         font-size: 1.3rem;
-    }
 
+    }
+    
     .bloque-noticia-autor {
         width: 65%;
         display: flex;
         justify-content: start;
         flex-direction: column;
+
+        p {
+            line-height: 1.5;
+        }
     }
 
     .autor {
