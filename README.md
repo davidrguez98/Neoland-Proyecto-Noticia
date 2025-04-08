@@ -69,3 +69,13 @@ git clone https://github.com/davidrguez98/Neoland-Proyecto-Noticia
 
 Este proyecto forma parte del bootcamp de desarrollo web y está enfocado únicamente en la maquetación.  
 No incluye funcionalidades JavaScript ni contenido dinámico.
+
+## 👩‍💻 Contacto
+
+Si quieres ver más proyectos o ponerte en contacto conmigo:
+
+- GitHub: [@davidrguez98](https://github.com/davidrguez98)
+- LinkedIn: [David Rodríguez](https://www.linkedin.com/in/davidrguez98)
+- Correo: ropeda98@gmail.com
+
+¡Estoy abierto a colaboraciones, feedback o nuevas oportunidades!
