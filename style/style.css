@@ -126,6 +126,10 @@ footer {
         justify-content: start;
         flex-direction: column;
         padding: em 0;
+
+        p {
+            line-height: 1.5;
+        }
     }
 
     .autor {
@@ -142,17 +146,26 @@ footer {
             width: 3em;
             border-radius: 100%;
         }
+
+        .autor-1 {
+            display: flex;
+            align-items: center;
+        }
         
         .autor-vertical ul {
             display: flex;
             flex-direction: column;
         }
         
-        .rrss {
+        .bloque-rrss {
             display: flex;
-            align-items: center;
-            font-size: 1.2em;
-            padding-left: 1em ;
+
+            .rrss {
+                display: flex;
+                align-items: center;
+                font-size: 1.2em;
+                padding-left: 1em ;
+            }
         }
     }
     
@@ -312,24 +325,25 @@ footer {
                 font-style: oblique;
                 font-weight: var(--font-extrabold);
                 align-items: start;
-                padding: 1rem 0;
+                padding: 0.5rem 0;
             }
 
             span, h2 {
                 font-family: 'Roboto Flex', sans-serif;
                 font-size: 1.3rem;
                 color: #595959;
+                line-height: 1.5;
             }
         }
 
         .noticia-principio-foto {
-            width: 55%;
+            width: 60%;
+            padding-top: 1em;
         
             img {
                 display: flex;
                 justify-content: center;
                 max-width: 100%;
-                height: auto;
             }
         }
     }
@@ -343,7 +357,7 @@ footer {
     }
     
     .bloque-noticia-autor {
-        width: 65%;
+        width: 60%;
         display: flex;
         justify-content: start;
         flex-direction: column;
@@ -355,12 +369,13 @@ footer {
 
     .autor {
         padding-bottom: 32px;
+        padding-top: 30px;
         font-size: var(--text-normal);
     }
-
+    
     .autor ul{
-        display: flex;
         justify-content: space-between;
+        display: flex;
         align-items: center;
         
         img {
@@ -368,20 +383,26 @@ footer {
             border-radius: 100%;
         }
 
-        .autor-vertical { /* NO CONSIGO PONERLO EN COLUMNA */
-            display: flex;
-
-            ul {
-                display: flex;
-                flex-direction: column;
-            }
-
-        }
-
-        .rrss {
+        .autor-1 {
             display: flex;
             align-items: center;
-            font-size: 1.2em;
+        }
+        
+        .autor-vertical {
+            display: flex;
+            padding-left: 0.5em;
+            flex-direction: column;
+        }
+
+        .bloque-rrss {
+            display: flex;
+            
+            .rrss {
+                display: flex;
+                align-items: center;
+                font-size: 1.2em;
+                padding-left: 1em;
+            }
         }
     }
 
