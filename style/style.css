@@ -9,8 +9,8 @@
 ================================================== */
 
 .nav {
-    width: 100%;
     background-color: var(--color-white);
+    width: 100%;
     border-bottom: solid 2px var(--color-purple);
     display: flex;
     position: fixed;
@@ -19,8 +19,10 @@
     font-family: "Work Sans", sans-serif;
     font-size: var(--text-tiny);
     font-weight: var(--font-sebold);
-
+    
     .nav-complete {
+        padding: 8 0px;
+        max-width: 1200px;
         background-color: var(--color-white);
         display: flex;
         justify-content: space-between;
@@ -140,6 +142,7 @@
     .autor ul{
         display: flex;
         align-items: center;
+        justify-content: space-between;
         
         img {
             width: 3em;
@@ -301,9 +304,9 @@
         .noticia-principio{
             display: flex;
             justify-content: space-between;
-            flex-direction: row;
             padding-left: 96px;
             padding-right: 96px;
+            width: 100;
         }
         
         .noticia-principio-texto {
@@ -327,13 +330,26 @@
         }
 
         .noticia-principio-foto {
-            width: 60%;
+            max-width: 60%;
             padding-top: 1em;
         
             img {
-                display: flex;
-                justify-content: center;
                 max-width: 100%;
+            }
+
+            .ola {
+                display: flex;
+                position: absolute;
+                top: 372px;
+                padding: 0.3rem 0;
+                background-color: rgba(0, 0, 0, 0.295);
+                
+                p {
+                    font-family: 'Roboto Flex', sans-serif;
+                    font-size: 0.6rem;
+                    color: white;
+                    padding-left: 1rem;
+                }
             }
         }
     }
@@ -563,7 +579,7 @@
             .footer-derecha {
                 
                 width: 100%;
-                column-count: 4;
+                column-count: 2;
                 font-size: 0.7rem;
 
                 li:first-child {
