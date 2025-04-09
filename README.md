@@ -76,8 +76,8 @@ No incluye funcionalidades JavaScript ni contenido dinámico.
 
 Si quieres ver más proyectos o ponerte en contacto conmigo:
 
-- GitHub: [@davidrguez98](https://github.com/davidrguez98)
-- LinkedIn: (https://www.linkedin.com/in/davidrguez98)
+- [GitHub](https://github.com/davidrguez98)
+- [LinkedIn](https://www.linkedin.com/in/david-rodr%C3%ADguez-p%C3%A9rez-softdev/)
 - Correo: ropeda98@gmail.com
 
 ¡Estoy abierto a colaboraciones, feedback o nuevas oportunidades!
