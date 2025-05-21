@@ -70,8 +70,6 @@ git clone https://github.com/davidrguez98/Neoland-Proyecto-Noticia
 Este proyecto forma parte del bootcamp de desarrollo web y está enfocado únicamente en la maquetación.  
 No incluye funcionalidades JavaScript ni contenido dinámico.
 
-[Enlace al proyecto](https://neoland-proyecto-noticia.netlify.app/)
-
 ## 👩‍💻 Contacto
 
 Si quieres ver más proyectos o ponerte en contacto conmigo:
